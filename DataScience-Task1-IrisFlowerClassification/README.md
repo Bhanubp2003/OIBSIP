@@ -134,9 +134,9 @@ All four models achieved an accuracy of 1.0 on the test dataset.
 
 ## Best Model Selection
 
-All models performed equally well with 100% accuracy on the test data. Since the performance was the same, **Random Forest Classifier** was selected as the final model.
+All four models performed very well on the test dataset. Logistic Regression, K-Nearest Neighbors, Decision Tree Classifier, and Random Forest Classifier all achieved an accuracy of 1.0.
 
-Random Forest was selected because it is an ensemble learning algorithm that combines multiple decision trees. It generally performs well on classification problems and helps reduce the risk of overfitting compared to a single decision tree.
+Since Logistic Regression achieved the best accuracy and is simple, efficient, and easy to interpret, it was selected as the final model for this project. The Iris dataset is clean and has clearly separable feature patterns, especially in petal length and petal width, which helped Logistic Regression classify the species correctly.
 
 ## Final Prediction
 
@@ -155,7 +155,7 @@ Iris-setosa
 
 ## Result
 
-The project successfully trained and evaluated multiple machine learning models for Iris flower classification. All models classified the test samples correctly, and Random Forest Classifier was selected as the final model.
+The project successfully trained and evaluated multiple machine learning models for Iris flower classification. All models classified the test samples correctly, and logistic regression was selected as the final model.
 
 ## Conclusion
 
